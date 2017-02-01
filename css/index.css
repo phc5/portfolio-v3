@@ -68,6 +68,11 @@ body {
 }
 
 /*About Page*/
+.contact-me {
+	color: #31C4F0;
+	text-decoration: none;
+}
+
 .about {
 	background-color: #fff;
     text-align: center;
