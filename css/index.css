@@ -168,6 +168,7 @@ body {
 #contact {
 	background-color: #31C4F0;
 	color: white;
+	position: relative;
 }
 
 .contact-icon {
@@ -187,6 +188,19 @@ body {
 }
 
 .copyright {
-	margin-bottom: 10px;
+	margin-top: 10rem;
     text-align: center;
+}
+
+.footer-nav {
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	margin-right: 2.5rem;
+}
+
+.footer-nav-text {
+	margin-bottom: 25px;
 }
