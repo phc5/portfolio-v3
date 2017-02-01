@@ -14,7 +14,7 @@
 			<img class="logo" src="./assets/img/PCLogo.gif"/>
 		</a>	
 		<div class="home-content">
-			<h1>Hi, I'm Paul. I design and build full stack web applications.</h1>
+			<h1>Hi, I'm Paul. <br>I<span class="what-i-do"></span></h1>
 			<a class="button hire-button" href="#contact">Yes, I'm available for hire!</a>
 		</div>
 
@@ -39,7 +39,7 @@
 
 					<p class="about-me">Suprisingly, I had little experience with JavaScript and web development. So after graduation, I began learning the basics of web development by utilizing online resources such as the Odin Project and have since completed a web development intensive with Thinkful.</p>
 
-					<p class="about-me">Aside from web development, I love to watch and play sports such as football and basketball and have a knack for video games. Thank you for visiting my website. Please feel free to contact me to learn even more about me!</p>
+					<p class="about-me">Aside from web development, I love to watch and play sports such as football and basketball and have a knack for video games. Thank you for visiting my website. Please feel free to <a class="contact-me" href="#contact">contact me</a> to learn even more about me!</p>
 				</div>
 			</div>
 
@@ -203,4 +203,14 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="./js/scroll.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+<script>
+    $(function(){
+        $(".what-i-do").typed({
+            strings: [" build web applications.", " love to learn.", "'m a gamer.", "'m a dog person."],
+            typeSpeed: 50,
+            loop: true
+        });
+    });
+</script>
 </html>
